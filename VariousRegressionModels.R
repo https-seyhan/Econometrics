@@ -8,6 +8,7 @@ library(AER)
 library(systemfit)
 library(sem)
 
+# OLS, IVR, TLS models
 setwd("C:/Econometrics Applications")
 
 nlsy13 <- read.dta("nlsy13.dta")
