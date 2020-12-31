@@ -2,7 +2,6 @@ library(foreign)
 
 setwd ("C:/Econometrics Applications")
 
-#Week 2
 
 houseprice <- read.dta("hprice2.dta")
 
