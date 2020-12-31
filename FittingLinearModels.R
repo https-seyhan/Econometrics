@@ -1,3 +1,4 @@
+# Fitting Linear Models
 library(foreign)
 
 setwd ("C:/Econometrics Applications")
