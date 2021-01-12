@@ -64,7 +64,6 @@ norm.data <- scale(data[,!(names(data) %in% c('TargetVariable'))]) # normalise a
 summary(norm.data)
 boxplot(norm.data)
 
-
 TargetVariable <- as.factor(data[,c("TargetVariable")])
 summary(TargetVariable)
 
