@@ -109,7 +109,6 @@ summary(model_rf$Length)
 names(model_rf)
 print(model_rf$classes)
 
-
 #plot MSE Error Rates
 plot(model_rf, log="y")
 
