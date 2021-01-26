@@ -17,7 +17,6 @@ summary(regressweight)
 #Regression in question v)
 regressweight <- lm(bwght~ mage + mage2 + nanvis + nanvis2, data=bweight)
 rs <- summary(regressweight)
-
 res <- residuals(regressweight)
 
 fitted.regressweight <- fitted(regressweight) # predicted values
