@@ -21,7 +21,6 @@ res <- residuals(regressweight)
 
 fitted.regressweight <- fitted(regressweight) # predicted values
 
-
 new <- data.frame(mage=30, mage2=900, nanvis=12, nanvis2=144)
 
 predict(regressweight, new, se.fit=TRUE, interval="confidence", level=0.90, cond=TRUE)
