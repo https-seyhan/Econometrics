@@ -31,8 +31,6 @@ summary(regressweight2)
 
 (summary(regressweight2)$sigma)
 
-
-
 regressweight20 <- lm(bwght~ mage0 + mage20 + nanvis0 + nanvis20, data=bweight)
 summary(regressweight20)
 
