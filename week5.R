@@ -20,7 +20,6 @@ obrat, loanprc, unem, male, married, dep, sch and cosign
 olsreg2 <- lm(approve~ white + obrat+ loanprc + unem + male + married + dep + sch + cosign, data=loandata)
 summary(olsreg2)
 coef(olsreg2)
-
 bptest(olsreg2)
 
 #GLM
