@@ -67,7 +67,7 @@ new <- data.frame(nox= 5.473947, crime=2.5, rooms=6, dist=4, disadv=15, proptax=
 predict(regressprice8, new, se.fit=TRUE, interval="confidence", level=0.99, cond=TRUE) # conditional
 predict(regressprice8, new, se.fit=TRUE, interval="confidence", level=0.99, cond=FALSE)
 
-###################Question 10###################
+######################################
 
 #transform variables
 houseprice$lognox <- (log(houseprice$nox) - 1.7)
