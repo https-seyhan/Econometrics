@@ -90,7 +90,7 @@ predict(regressprice8, new, se.fit=TRUE, interval="confidence", level=0.99, cond
 new <- data.frame(lognox= 1.7, crime2.5=2.5, rooms6=6, dist4=4, disadv15=15, proptax38=38)
 predict(regressprice8, new, se.fit=TRUE, interval="confidence", level=0.99, cond=FALSE) # Unconditional
 
-###################Question 12###################
+######################################
 regressprice12 <- lm(price ~ log(nox) + crime + rooms + dist + disadv + proptax, data=houseprice)
 summary(regressprice12)
 
