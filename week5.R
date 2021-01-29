@@ -6,7 +6,6 @@ library(lmtest)
 library(car)
 
 setwd ("C:/Econometrics Applications")
-
 loandata <- read.dta ("loanapp5.dta")
 
 olsreg <- lm(approve~ white, data=loandata)
