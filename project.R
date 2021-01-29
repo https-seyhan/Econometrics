@@ -61,7 +61,7 @@ cor(houseprice)
 regressprice8 <- lm(log(price) ~ log(nox) + crime + rooms + dist + disadv + proptax, data=houseprice)
 summary(regressprice8)
 
-###################Question 9###################
+######################################
 
 new <- data.frame(nox= 5.473947, crime=2.5, rooms=6, dist=4, disadv=15, proptax=38)
 predict(regressprice8, new, se.fit=TRUE, interval="confidence", level=0.99, cond=TRUE) # conditional
