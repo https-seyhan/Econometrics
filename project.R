@@ -105,7 +105,7 @@ summary(regressprice13)
 resettest (regressprice13 , power=2:3, type="regressor")
 
 
-###################Question 14###################
+######################################
 regressprice14 <- lm(log_price ~ log_nox + crime + rooms + dist + disadv + proptax, data=houseprice)
 summary(regressprice14)
 white.test(regressprice14)
