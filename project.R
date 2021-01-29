@@ -28,7 +28,7 @@ sd(houseprice$disadv)
 houseprice <- read.table("hpricen.csv",sep=",", header=TRUE)
 summary(houseprice)
 
-##################Question 4##################
+####################################
 
 regressprice4 <- lm(log(price) ~ log(nox) + crime + rooms + dist + disadv, data=houseprice)
 summary(regressprice4)
