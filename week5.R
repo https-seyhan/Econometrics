@@ -27,7 +27,6 @@ glm2a <- glm(approve ~ white, family=binomial(link=probit), data=loandata)
 summary(glm2a)
 
 pnorm(c(1,1)%*%glm2a$coef)
-
 pnorm(c(1,0)%*%glm2a$coef)
 
 #Quantile Regression
