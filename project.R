@@ -129,7 +129,7 @@ fit1 <- summary(rq(log(price) ~ log(nox) + crime + rooms + dist + disadv + propt
 plot(fit1, parm=2)
 
 
-###################Question 16###################
+######################################
 
 summary(houseprice)
 
