@@ -45,7 +45,7 @@ regressprice <- lm(log(price) ~ log(nox) + crime + rooms + dist + disadv, data=h
 summary(regressprice)
 anova(regressprice)
 
-#Restricted regression for question 6
+#Restricted regression
 
 regresspriceRestricted <- lm(log(price) ~ log(nox) , data=houseprice)
 summary(regresspriceRestricted)
