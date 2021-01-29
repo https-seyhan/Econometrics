@@ -51,7 +51,7 @@ regresspriceRestricted <- lm(log(price) ~ log(nox) , data=houseprice)
 summary(regresspriceRestricted)
 anova(regresspriceRestricted)
 
-###################Question 7###################
+######################################
 
 cor(log(houseprice$price), houseprice$proptax)
 cor(houseprice)
