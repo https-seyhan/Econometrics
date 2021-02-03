@@ -81,7 +81,7 @@ mfx<-function(x){
   #Logit?
   if (qq<-x$family$link=="logit"){
   }
-  else{}
+  
   #CDF of Mean Model
   if (ll == TRUE){
     BigProb<-pnorm(M3)
