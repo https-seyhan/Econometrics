@@ -104,7 +104,8 @@ mfx<-function(x){
   }
   else if (qq<-x$family$link=="probit"){ cat("This is a Probit Model","\n")
   }
-  else {cat("","\n")}
+  else {cat("","\n")
+  }
   cat("", "\n")
   cat("Reporting Marginal Effects, Evaluated at the Mean", "\n")
   cat("", "\n")
