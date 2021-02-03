@@ -37,7 +37,6 @@ ologit2 <- polr(drinker ~ age40s + age50s + ednchs + edba + married + dchron, da
 print(summary(ologit2))
 
 ea <- maBina(w = ologic, x.mean = TRUE, rev.dum = TRUE)
-ea
 
 mfx(ologit)
 mfx(probit1)
