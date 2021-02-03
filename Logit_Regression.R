@@ -78,9 +78,7 @@ mfx<-function(x){
   sbc<- -2*logl + log(obs)*nrow(bb)
   #HQIC
   HIC<- -2*logl + 2*log(log(obs))*nrow(bb)
-  #Logit?
-  if (qq<-x$family$link=="logit"){
-  }
+
   
   #CDF of Mean Model
   if (ll == TRUE){
