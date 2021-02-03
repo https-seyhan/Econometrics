@@ -14,7 +14,6 @@ library(MASS)
 library("sampleSelection")
 
 rm(list=ls()) #clean memory
-
 setwd ("C:/Econometrics Applications")
 
 drinks <- read.dta ("drinks10.dta")
