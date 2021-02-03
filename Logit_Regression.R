@@ -104,7 +104,8 @@ mfx<-function(x){
     
     cat("This is a Logit Model","\n")
   }
-  else if (qq<-x$family$link=="probit"){ cat("This is a Probit Model","\n")
+  else if (qq<-x$family$link=="probit"){ 
+    cat("This is a Probit Model","\n")
   }
   else {
     cat("","\n")
