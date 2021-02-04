@@ -125,7 +125,6 @@ plot(predictions)
 write.csv(predictions, file = "randomforestTrainingProbs.csv", row.names = FALSE)
 
 pred <- prediction(predictions,train$TargetVariable)
-
 perf_AUC <- performance(pred,"auc") #Calculate the AUC value
 
 AUC <- perf_AUC@y.values[[1]]
