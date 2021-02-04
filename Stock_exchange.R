@@ -137,7 +137,6 @@ varImpPlot(model_rf,main=" Average Importance plots")
 varImpPlot(model_rf,class="1",main=" Class= 1 Importance plots")
 varImpPlot(model_rf,class="-1",main=" Class= -1 Importance plots")
 
-
 impVariables <- importance(model_rf,type = 1) 
 
 rownames(impVariables)[which(impVariables > 1)]
