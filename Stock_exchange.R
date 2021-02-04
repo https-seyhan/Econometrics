@@ -166,8 +166,6 @@ write.csv(preds_rf, file = "randomforestTestinggProbs.csv", row.names = FALSE)
 #Confusion Matrix
 table(pred = preds_rf , true = test[,101])
 
-
-
 #plot MSE
 plot(preds_rf, log="y")
 
