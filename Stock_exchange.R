@@ -203,9 +203,7 @@ plot(train_pred)
 
 #SVM TRAINING ROC curve#######################################################
 pred <- prediction(train_pred,train$TargetVariable)
-
 perf_AUC <- performance(pred,"auc") #Calculate the AUC value
-
 AUC <- perf_AUC@y.values[[1]]
 
 perf_ROC <- performance(pred,"tpr","fpr") #plot the actual ROC curve
