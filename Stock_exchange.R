@@ -162,7 +162,6 @@ plot(margins.rf )
 preds_rf<-predict(object <- model_rf,test[,-101], type="prob") #remove type="prob" to see confusion matrix
 write.csv(preds_rf, file = "randomforestTestinggProbs.csv", row.names = FALSE)
 
-
 #Confusion Matrix
 table(pred = preds_rf , true = test[,101])
 
