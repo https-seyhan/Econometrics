@@ -190,8 +190,6 @@ model_svm <- svm(traindata, target$TargetVariable,type='C', kernel='sigmoid', co
 print(model_svm)
 summary(model_svm)
 
-
-
 #Predict training data
 predictSVM <- predict(model_svm, traindata, probability = T)
 
