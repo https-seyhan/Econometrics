@@ -226,7 +226,6 @@ plot(cmdscale(dist(train[,-101])),
 #predict Test DAta
 
 preds_svm <- predict(model_svm, test[,-101], probability = T)
-
 write.csv(predictions, file = "randomforestTestingProbs.csv", row.names = FALSE)
 
 ##confusion matrix
