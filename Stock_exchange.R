@@ -183,8 +183,6 @@ plot(test$TargetVariable)
 summary(train)
 names(train)
 
-
-
 traindata <- subset(train, select  = -TargetVariable)
 target <- subset(train, select = TargetVariable)
 
