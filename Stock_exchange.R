@@ -178,7 +178,6 @@ plot(preds_rf)
 #plot actual test Values
 plot(test$TargetVariable)
 
-
 #SVM
 summary(train)
 names(train)
