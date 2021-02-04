@@ -19,7 +19,6 @@ data<- read.csv("~/Econometrics Applications/stock_data.csv", sep=",", header=T,
 summary(data)
 
 boxplot(data[,-1])
-
 corr.data<- findCorrelation(data, cutoff = 0.60)
 names(corr.data) # There is no highy correlared prerdictors
 
