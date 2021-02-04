@@ -27,7 +27,6 @@ names(corr.data) # There is no highy correlared prerdictors
 dim(data)
 
 #remove outliners
-
 #findOutlier <- function(data, cutoff = 3) {
   ## Calculate the sd
 #  sds <- apply(data, 2, sd, na.rm = TRUE)
