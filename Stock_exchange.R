@@ -158,8 +158,6 @@ rownames(impVariables)[which(impVariables > 1)]
 margins.rf <- margin(model_rf)
 plot(margins.rf )
 
-
-
 #Predict Test data
 preds_rf<-predict(object <- model_rf,test[,-101], type="prob") #remove type="prob" to see confusion matrix
 write.csv(preds_rf, file = "randomforestTestinggProbs.csv", row.names = FALSE)
