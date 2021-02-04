@@ -169,7 +169,6 @@ table(pred = preds_rf , true = test[,101])
 plot(preds_rf, log="y")
 
 #Checking Test AUC
-
 auc(preds,test$TargetVariable)
 
 #plot test ppredictions
