@@ -118,7 +118,6 @@ level_comp <- function(pwt, countries, years) {
 # test 
 #level_comp(pwt, c("MEX", "USA"), c("2011"))
 
-
 # growth accounting 
 growth_acc <- function(data, code, years) {
   # subset data
