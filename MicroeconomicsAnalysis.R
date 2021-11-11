@@ -136,6 +136,7 @@ growth_acc <- function(data, code, years) {
   #  print(contri)
   return(rbind(date1, date2, growth, contri))
 }
+
 # test
 growth_acc(pwt, c("USA"), c("1950", "2011"))
 
