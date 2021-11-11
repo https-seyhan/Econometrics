@@ -31,7 +31,6 @@ summary(olsreg2)
 cbind(CO = coef(olsreg2),  confint(olsreg2))
 
 #Question3
-
 olsreg3 <- lm(educ ~  CUFees + exper + expersq + nc + south + west + nc18 + south18 + west18 + urban + urban18, data= nlsy13)
 summary(olsreg3)
 educhat <- fitted(olsreg3)
