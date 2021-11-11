@@ -89,6 +89,7 @@ plot_YL <- function(data, country) {
   
   dev.print(device=pdf, file=paste(country,"_YL.pdf",sep=""),width=8,height=6)
 }
+
 # test
 plot_YL(pwt,c("USA"))
 plot_YL(pwt,c("TUR"))
