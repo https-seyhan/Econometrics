@@ -55,6 +55,7 @@ summary(pwt$KY, na.rm=TRUE)
 # variables to keep for spreadsheet 
 variables <- c("country", "countrycode", "year", "POP", "LPOP", "YPOP", "YL", "KL", "KY", 
                "hours", "TFP")
+
 pwt_some <- pwt[variables]
 
 # write csv file 
