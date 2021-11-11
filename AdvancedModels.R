@@ -110,7 +110,6 @@ plot(fit1, parm=2)
 ######################################
 summary(houseprice)
 #Create the indicator variable dpriceh
-
 houseprice$dpriceh <- 0
 houseprice$dpriceh  <- ifelse(houseprice$price > 22200, 1, 0)
 
