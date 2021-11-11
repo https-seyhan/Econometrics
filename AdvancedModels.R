@@ -46,7 +46,6 @@ summary(regresspriceRestricted)
 anova(regresspriceRestricted)
 
 ######################################
-
 cor(log(houseprice$price), houseprice$proptax)
 cor(houseprice)
 ######################################
