@@ -1,5 +1,4 @@
 #ECMT6002 Applied Project
-
 library(foreign)
 library(ggplot2)
 library(lattice)
