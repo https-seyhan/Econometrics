@@ -15,7 +15,6 @@ setwd ("~/Econometrics Applications")
 houseprice <- read.dta ("hpricen.dta")
 summary(houseprice)
 
-
 #standard dev
 sd(houseprice$price)
 sd(houseprice$crime)
