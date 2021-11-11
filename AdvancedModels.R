@@ -94,7 +94,6 @@ resettest (regressprice13 , power=2:3, type="regressor")
 regressprice14 <- lm(log_price ~ log_nox + crime + rooms + dist + disadv + proptax, data=houseprice)
 summary(regressprice14)
 white.test(regressprice14)
-
 ######################################
 
 taus <- c(.1, .25, .50, .75, .90)
