@@ -113,6 +113,7 @@ level_comp <- function(pwt, countries, years) {
   print(c("YL", "KL", "TFP"))
   return(rbind(country1, country2, ratio, contri))
 }
+
 # test 
 #level_comp(pwt, c("MEX", "USA"), c("2011"))
 
