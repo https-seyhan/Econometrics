@@ -114,7 +114,6 @@ summary(houseprice)
 #Create the indicator variable dpriceh
 
 houseprice$dpriceh <- 0
-
 houseprice$dpriceh  <- ifelse(houseprice$price > 22200, 1, 0)
 
 #Perform LPM using OLS
