@@ -74,7 +74,6 @@ new <- data.frame(nox= 5.473947, crime=2.5, rooms=6, dist=4, disadv=15, proptax=
 predict(regressprice8, new, se.fit=TRUE, interval="confidence", level=0.99, cond=TRUE) # conditional
 
 #####################################
-
 new <- data.frame(lognox= 1.7, crime2.5=2.5, rooms6=6, dist4=4, disadv15=15, proptax38=38)
 predict(regressprice8, new, se.fit=TRUE, interval="confidence", level=0.99, cond=FALSE) # Unconditional
 Suzanne Maddock
