@@ -97,7 +97,6 @@ white.test(regressprice14)
 ######################################
 
 taus <- c(.1, .25, .50, .75, .90)
-
 #Quantile Regression
 rq15 <- rq(log(price) ~ log(nox) + crime + rooms + dist + disadv + proptax, data=houseprice,  taus)
 summary(rq15, se = "boot")
