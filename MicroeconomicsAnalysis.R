@@ -182,7 +182,6 @@ growth_acc(pwt, c("VNM"), c("1990", "2011"))
 growth_acc(pwt, c("SYR"), c("1990", "2011"))
 
 
-# fig for exams 
 
 # Viet Nam, fall 2013 
 data <- pwt[pwt$countrycode == "VNM",]
