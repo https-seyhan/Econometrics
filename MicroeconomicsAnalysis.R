@@ -135,7 +135,6 @@ growth_acc <- function(data, code, years) {
 # test
 growth_acc(pwt, c("USA"), c("1950", "2011"))
 
-
 # plots 
 plot_YL(pwt,c("USA"))
 plot_YL(pwt,c("ITA"))
