@@ -41,7 +41,6 @@ summary(regressprice)
 anova(regressprice)
 
 #Restricted regression
-
 regresspriceRestricted <- lm(log(price) ~ log(nox) , data=houseprice)
 summary(regresspriceRestricted)
 anova(regresspriceRestricted)
