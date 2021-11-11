@@ -45,4 +45,3 @@ res3 <- residuals(regressweight3)
 
 (summary(regressweight3)$sigma)
 (summary(regressweight)$sigma)
-
