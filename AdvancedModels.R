@@ -106,7 +106,6 @@ summary(rq15$se)
 plot(summary(rq15))
 
 fit1 <- summary(rq(log(price) ~ log(nox) + crime + rooms + dist + disadv + proptax, data=houseprice, taus))
-
 plot(fit1, parm=2)
 
 ######################################
