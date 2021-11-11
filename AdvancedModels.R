@@ -36,7 +36,6 @@ anova(regressprice4)
 
 ####################################
 
-
 #Correlation bwtween price, nox , and price, crime
 cor(houseprice$price, houseprice$nox)
 cor(houseprice)
