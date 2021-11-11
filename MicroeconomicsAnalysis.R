@@ -93,7 +93,6 @@ plot_YL <- function(data, country) {
 plot_YL(pwt,c("USA"))
 plot_YL(pwt,c("TUR"))
 
-
 # level comparison 
 level_comp <- function(pwt, countries, years) {
   # subset data
