@@ -86,7 +86,6 @@ new <- data.frame(nox= 5.473947, crime=2.5, rooms=6, dist=4, disadv=15, proptax=
 predict(regressprice12, new, se.fit=TRUE, interval="confidence", cond=TRUE) # conditional
 
 ######################################
-
 regressprice13 <- lm(log(price) ~ log(nox) + crime + rooms + dist + disadv + proptax, data=houseprice)
 summary(regressprice13)
 
