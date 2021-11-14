@@ -113,6 +113,7 @@ mfx<-function(x){
   else {
     cat("","\n")
   }
+  
   cat("", "\n")
   cat("Reporting Marginal Effects, Evaluated at the Mean", "\n")
   cat("", "\n")
