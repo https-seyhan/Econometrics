@@ -93,7 +93,7 @@ mfx<-function(x){
   LRdata <- data.frame(LRTest, dfLR,LRp)
   colnames(LRdata) <- c("Test Statistic","DF","P-Value")
   rownames(LRdata) <- "LR Test" #Likelihood-ratio test
-  #
+  
   tests<-rbind(BigProb,logl,psr2,x$aic,HIC,sbc)
   tests<-data.frame(tests)
   colnames(tests)<-""
