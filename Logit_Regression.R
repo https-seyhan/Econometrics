@@ -50,7 +50,7 @@ mfx<-function(x){
   bbh<-as.character(rownames(bb))
   bbmeans<-bb2[bbh[2:nrow(bb)],]
   jkj <-bb[2:nrow(bb),]*bbmeans
-  #
+  
   M3<-sum(jkj) + bb[1,]
   #
   if (ll<-x$family$link=="probit"){
