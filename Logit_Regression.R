@@ -67,6 +67,7 @@ mfx<-function(x){
   colnames(probitmfxfull) <- c("mfx","SE","Mean Value","z","Pr(>|z|)")
   
   logl <- 0.5*(-x$aic + 2*nrow(bb))
+  
   #McFadden's R2
   depen <- x$data[,1]
   depenglm <- glm(depen ~ 1, family=binomial(link=x$family$link),data=x$data)
