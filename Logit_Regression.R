@@ -49,7 +49,7 @@ mfx<-function(x){
   bb2<-data.frame(mean(x$data,na.rm=T))
   bbh<-as.character(rownames(bb))
   bbmeans<-bb2[bbh[2:nrow(bb)],]
-
+  
   jkj <-bb[2:nrow(bb),]*bbmeans
 
   M3<-sum(jkj) + bb[1,]
