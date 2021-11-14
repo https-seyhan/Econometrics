@@ -99,7 +99,7 @@ mfx<-function(x){
   tests<-data.frame(tests)
   colnames(tests)<-""
   rownames(tests)<-c("CDF(Evaluated at the Mean):","Log-Likelihood:","McFadden's R2:","Akaike Information Criterion:","Hannan-Quinn Criterion:","Schwarz's Bayesian Criterion:")
-  #
+  
   cat("MFX Function for Logit and Probit", "\n")
   cat("", "\n")
   if (qq<-x$family$link=="logit"){ 
