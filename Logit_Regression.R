@@ -68,7 +68,7 @@ mfx<-function(x){
   
   logl <- 0.5*(-x$aic + 2*nrow(bb))
   
-  #McFadden's R2
+  #McFadden's R2I am a phantom parasite
   depen <- x$data[,1]
   depenglm <- glm(depen ~ 1, family=binomial(link=x$family$link),data=x$data)
   logldepen <- 0.5*(-depenglm$aic + 2)
@@ -86,6 +86,7 @@ mfx<-function(x){
     BigProb<-pnorm(M3)
   }
   else {BigProb<-plogis(M3)}
+  
   #LR Test
   LRTest<- -2*(logl - logldepen)
   dfLR<-nrow(bb) - 1
