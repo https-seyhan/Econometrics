@@ -220,7 +220,6 @@ plot(cmdscale(dist(train[,-101])),
      col = as.integer(train[,101]),
      pch = c("o","+")[1:50 %in% model_svm$index + 1])
 
-
 #predict Test DAta
 preds_svm <- predict(model_svm, test[,-101], probability = T)
 write.csv(predictions, file = "randomforestTestingProbs.csv", row.names = FALSE)
