@@ -54,7 +54,7 @@ dim(data)
 
 #Replace previous data with Filtered data
 #data <- dataFilt
-612114
+
 #summary(data)
 
 #Normalise Data
