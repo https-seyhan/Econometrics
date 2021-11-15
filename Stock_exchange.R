@@ -78,7 +78,7 @@ data <- tt #Normalised Data
 #Generate TargetVariable
 #generateTarget <- function(row)
 #{
- 
+
 #  if (row[101]== 1) "Down" else "Up"
 #}
 
