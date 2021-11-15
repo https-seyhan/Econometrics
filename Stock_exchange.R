@@ -54,7 +54,7 @@ dim(data)
 
 #Replace previous data with Filtered data
 #data <- dataFilt
-
+612114
 #summary(data)
 
 #Normalise Data
@@ -80,7 +80,7 @@ data <- tt #Normalised Data
 #Generate TargetVariable
 #generateTarget <- function(row)
 #{
-  
+ 
 #  if (row[101]== 1) "Down" else "Up"
 #}
 
