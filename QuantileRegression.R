@@ -45,7 +45,6 @@ quantreg2575 <- rq(approve ~ white, data=loandata, tau=c(0.25, 0.75))
 summary(quantreg2575)
 
 #Plotting data
-
 quantreg.all <- rq(approve ~ white, tau= seq(0.05, 0.95, by=0.05), data=loandata)
 quantreg.plot <- summary(quantreg.all)
 plot(quantreg.plot)
