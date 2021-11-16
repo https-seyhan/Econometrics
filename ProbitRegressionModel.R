@@ -10,7 +10,6 @@ library(texreg)
 library("sampleSelection")
 
 # Probit regression model in R
-
 rm(list=ls()) #clean memory
 setwd ("C:/Econometrics Applications")
 
