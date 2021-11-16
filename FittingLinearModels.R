@@ -1,6 +1,5 @@
 # Fitting Linear Models
 library(foreign)
-
 setwd ("C:/Econometrics Applications")
 
 houseprice <- read.dta("hprice2.dta")
