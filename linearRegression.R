@@ -20,4 +20,3 @@ anova(mbamodel)
 
 mbamodel2 <- lm(log(salary)~ log(libsize) + rank, data=mba)
 summary(mbamodel2)
-
