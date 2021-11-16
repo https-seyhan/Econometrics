@@ -31,6 +31,5 @@ summary(regressionprobit18_new)
 anova(regressionprobit18_new ,regressionprobit18, test="Chisq")
 
 
-
 probit(inlf ~ nwifeinc + educ + exper + expersq + age + kidslt6 + kidsge6, data = mroz)
 summary(mroz)
