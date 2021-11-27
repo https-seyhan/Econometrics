@@ -16,7 +16,7 @@ AUCGINI<-function(prediction=prediction1,lass=lass1){
   valA<-1
   valB<--1
   i<-1
-
+  
   while (!is.na(prediction[i])) {
     thisVal<-lass[i]
     if (thisVal==valA) {
