@@ -66,6 +66,7 @@ AUCGINI<-function(prediction=prediction1,lass=lass1){
       area1<-area1+A1
     }
   }
+  
   AUC<-area1
   GINI<-2*(AUC-0.5)
   cat("Records=", totalA+totalB,"\n")
