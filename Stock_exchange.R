@@ -129,7 +129,7 @@ perf_ROC <- performance(pred,"tpr","fpr") #plot the actual ROC curve
 plot(perf_ROC, main="ROC plot")
 text(0.5,0.5,paste("Training AUC = ",format(AUC, digits=5, scientific=FALSE)))
 
-# Plot important Variables
+#Plot important Variables
 varImpPlot(model_rf,main=" Average Importance plots")
 varImpPlot(model_rf,class="1",main=" Class= 1 Importance plots")
 varImpPloSVMt(model_rf,class="-1",main=" Class= -1 Importance plots")
