@@ -8,6 +8,7 @@ mytable <-read.table("kaggle_training_dataset_formatted2.txt", sep=",", header=T
 prediction1<-c(rep(2,10),rep(1,10))
 
 lass1<-c(rep(1,5),rep(-1,5),rep(1,5),rep(-1,5))
+
 AUCGINI<-function(prediction=prediction1,lass=lass1) {
   totalA<-0
   totalB<-0
