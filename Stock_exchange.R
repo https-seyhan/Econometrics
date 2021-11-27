@@ -132,7 +132,7 @@ text(0.5,0.5,paste("Training AUC = ",format(AUC, digits=5, scientific=FALSE)))
 # Plot important Variables
 varImpPlot(model_rf,main=" Average Importance plots")
 varImpPlot(model_rf,class="1",main=" Class= 1 Importance plots")
-varImpPlot(model_rf,class="-1",main=" Class= -1 Importance plots")
+varImpPloSVMt(model_rf,class="-1",main=" Class= -1 Importance plots")
 
 impVariables <- importance(model_rf,type = 1) 
 
@@ -196,7 +196,6 @@ train_pred <- attr(predictSVM, "probabilities")[,2] #Probabilities of SVM predic
 plot(train_pred)
 
 #write.csv(train_pred, file = "SVMTrainingProbs.csv", row.names = FALSE)
-
 
 #SVM TRAINING ROC curve#######################################################
 pred <- prediction(train_pred,train$TargetVariable)
