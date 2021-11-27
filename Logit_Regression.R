@@ -43,7 +43,6 @@ mfx(probit1)
 
 summary(ologit)
 anova(ologit,test="Chisq")
-
 mfx<-function(x){
   bb<-data.frame(x$coefficients)
   bb2<-data.frame(mean(x$data,na.rm=T))
