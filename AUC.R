@@ -9,7 +9,7 @@ prediction1<-c(rep(2,10),rep(1,10))
 
 lass1<-c(rep(1,5),rep(-1,5),rep(1,5),rep(-1,5))
 
-AUCGINI<-function(prediction=prediction1,lass=lass1) {
+AUCGINI<-function(prediction=prediction1,lass=lass1){
   totalA<-0
   totalB<-0
   prediction<-sort(prediction,decreasing=TRUE)
