@@ -28,7 +28,7 @@ AUCGINI<-function(prediction=prediction1,lass=lass1){
     }
     i<-i+1
   }
-  
+ 
   if ((totalA==0)|(totalB==0)){
     cat ("Only 1 Class")
   }
