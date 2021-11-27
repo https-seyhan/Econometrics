@@ -5,3 +5,5 @@ OLS, IVR (instrumental variables (IV) regression), TLS (Total Least Squares) mod
 Support Vector Machines.
 
 Random Forest.
+
+ANOVA.
