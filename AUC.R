@@ -56,7 +56,7 @@ AUCGINI<-function(prediction=prediction1,lass=lass1){
       if (prediction[k]==prediction[k+1]) {
         next_is_same<-TRUE}
     }
-    
+   
     if (next_is_same==FALSE) {
       this_percent_A<-countA/totalA
       this_percent_B<-countB/totalB
