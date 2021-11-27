@@ -1,6 +1,6 @@
 # Libraries
 library(randomForest) #Random Forest
-library(e1071) # SVM
+library(e1071) #SVM
 library(LiblineaR)
 library(earth) # Additive Regression
 library(Metrics)
