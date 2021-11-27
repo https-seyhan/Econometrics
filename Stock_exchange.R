@@ -87,7 +87,6 @@ data <- tt #Normalised Data
 #data$TargetVariable<-as.factor(data$TargetVariable)
 
 #summary(data$TargetVariable)
-
 summary(data)
 #Divide Data into Training and Test
 train <- data[1:2000, ]
