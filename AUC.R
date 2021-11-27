@@ -36,7 +36,7 @@ AUCGINI<-function(prediction=prediction1,lass=lass1) {
   this_percent_A<-0
   this_percent_B<-0
   area1<-0
-  
+ 
   countA<-0
   countB<-0
   k<-1
