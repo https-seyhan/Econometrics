@@ -13,9 +13,7 @@ AUCGINI<-function(prediction=prediction1,lass=lass1){
   totalA<-0
   totalB<-0
   prediction<-sort(prediction,decreasing=TRUE)
-  valA<-1
-  valB<--1
-  i<-1
+
 
   while (!is.na(prediction[i])) {
     thisVal<-lass[i]
