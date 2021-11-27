@@ -1,4 +1,4 @@
-# Fitting Linear Models
+# Fitting Linear Models on house prices
 library(foreign)
 setwd ("C:/Econometrics Applications")
 
