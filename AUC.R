@@ -48,6 +48,7 @@ AUCGINI<-function(prediction=prediction1,lass=lass1){
       last_percent_A<-this_percent_A
       last_percent_B<-this_percent_B
     }
+    
     if ((lass[k]==valA) &(!is.na(lass[k]))) {
       countA<-countA+1}
     else {countB<-countB+1}
