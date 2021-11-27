@@ -26,7 +26,6 @@ coef(run.Pooledfare)+as.matrix(sqrt(diag(Pooledfarebvcov))*qnorm(0.975))%*%c(-1,
 #Question2
 olsreg2 <- lm(lwage ~ educ + exper + expersq + nc + south + west + nc18 + south18 + west18 + urban + urban18, data= nlsy13 )
 summary(olsreg2)
-
 cbind(CO = coef(olsreg2),  confint(olsreg2))
 
 #Question3
