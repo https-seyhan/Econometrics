@@ -52,7 +52,7 @@ AUCGINI<-function(prediction=prediction1,lass=lass1){
     if ((lass[k]==valA) &(!is.na(lass[k]))) {
       countA<-countA+1}
     else {countB<-countB+1}
-  
+ 
     next_is_same<-FALSE
     if (!is.na(prediction[k])&(!is.na(prediction[k+1]))&(k<j-1)) {
       if (prediction[k]==prediction[k+1]) {
