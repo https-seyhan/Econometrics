@@ -2,7 +2,7 @@ setwd("C:/Econometrics/Lectures/Lec1/")
 
 mytable <-read.table("stock.csv", sep=",", header=T)
 
-setwd("C:/Comp/")
+setwd("C:/Comp/") # change the working directory
 
 mytable <-read.table("kaggle_training_dataset_formatted2.txt", sep=",", header=T)
 prediction1<-c(rep(2,10),rep(1,10))
