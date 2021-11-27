@@ -30,7 +30,6 @@ pnorm(c(1,1)%*%glm2a$coef)
 pnorm(c(1,0)%*%glm2a$coef)
 
 #Quantile Regression
-
 quantreg25 <- rq(approve ~ white, data=loandata, tau=0.25)
 summary(quantreg25)
 
