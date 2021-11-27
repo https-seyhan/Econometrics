@@ -42,7 +42,7 @@ AUCGINI<-function(prediction=prediction1,lass=lass1){
   countA<-0
   countB<-0
   k<-1
-  
+ 
   for (k in 1:(j-1)){
     if (next_is_same==FALSE){
       last_percent_A<-this_percent_A
