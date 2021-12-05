@@ -13,7 +13,7 @@ regressweight <- lm(bwght~ mage + mage2, data=bweight)
 summary(regressweight)
 
 #Regression in question v)
-regressweight <- lm(bwght~ mage + mage2 + nanvis + nanvis2, data=bweight)
+regressweight <-lm(bwght~ mage + mage2 + nanvis + nanvis2, data=bweight)
 rs <- summary(regressweight)
 res <- residuals(regressweight)
 
