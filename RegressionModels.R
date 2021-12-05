@@ -29,7 +29,7 @@ summary(regressweight2)
 
 (summary(regressweight2)$sigma)
 
-regressweight20 <- lm(bwght~ mage0 + mage20 + nanvis0 + nanvis20, data=bweight)
+regressweight20 <-lm(bwght~ mage0 + mage20 + nanvis0 + nanvis20, data=bweight)
 summary(regressweight20)
 
 predict(regressweight20, new, se.fit=TRUE, interval="confidence", level=0.90, cond=FALSE)
