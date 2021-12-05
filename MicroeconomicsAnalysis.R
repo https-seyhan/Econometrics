@@ -35,7 +35,7 @@ variables <- c("country", "countrycode", "year", "rgdpe", "rgdpo", "emp", "pop",
 pwt <- pwt[variables]
 
 # create variables for class with understandable labels 
-# NB:  output, employment, etc in millions 
+# NB:  output, emplmbesammleoyment, etc in millions 
 pwt$Y    <- pwt$rgdpo 
 pwt$POP  <- pwt$pop 
 pwt$YPOP <- pwt$Y/pwt$pop
@@ -85,7 +85,7 @@ plot_YL <- function(data, country) {
        mar=c(2,4,2,2),   # better than default in most cases 
        mgp=c(2.5,1,0)  
   )
- 
+
   mtext(country, side=3, adj=0, line=1.0, cex=1.25)
   dev.print(device=pdf, file=paste(country,"_YL.pdf",sep=""),width=8,height=6)
 }
