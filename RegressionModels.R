@@ -41,7 +41,7 @@ summary(regressweight3)
 fitted.regressweight3 <- exp(fitted(regressweight3)) # predicted values
 
 coef(regressweight3)
-res3 <- residuals(regressweight3)
+res3 <-residuals(regressweight3)
 
 (summary(regressweight3)$sigma)
 (summary(regressweight)$sigma)
