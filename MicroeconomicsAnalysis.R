@@ -32,7 +32,6 @@ summary(pwt)
 # select variables of interest
 variables <- c("country", "countrycode", "year", "rgdpe", "rgdpo", "emp", "pop", "avh",  
                "ck")
-
 pwt <- pwt[variables]
 
 # create variables for class with understandable labels 
