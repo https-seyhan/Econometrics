@@ -55,7 +55,7 @@ summary(pwt$KY, na.rm=TRUE)
 variables <- c("country", "countrycode", "year", "POP", "LPOP", "YPOP", "YL", "KL", "KY", 
                "hours", "TFP")
 
-pwt_some <- pwt[variables]
+pwt_some <-pwt[variables]
 
 # write csv file 
 write.csv(pwt_some, file="pwt80.csv", row.names=FALSE)
