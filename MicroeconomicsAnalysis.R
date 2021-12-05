@@ -20,7 +20,6 @@ dir = "c:/Users/dbackus/Documents/Papers/BCH/data/PWT"
 
 #  1. Get data 
 # ------------------------------------------------------------------------------
-
 require(xlsx)
 library(gdata)
 #pwdata<- "pwt81.xlsx"
