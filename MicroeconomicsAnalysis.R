@@ -17,7 +17,6 @@ rm(list=ls())
 # remember to change \ to /
 dir = "c:/Users/dbackus/Documents/Papers/BCH/data/PWT"
 
-
 #  1. Get data 
 # ------------------------------------------------------------------------------
 require(xlsx)
