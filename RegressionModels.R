@@ -35,7 +35,7 @@ summary(regressweight20)
 predict(regressweight20, new, se.fit=TRUE, interval="confidence", level=0.90, cond=FALSE)
 
 #Regression of log(btwght) in question ix)
-regressweight3 <- lm(log(bwght)~ mage + mage2 + nanvis + nanvis2, data=bweight)
+regressweight3 <-lm(log(bwght)~ mage + mage2 + nanvis + nanvis2, data=bweight)
 summary(regressweight3)
 
 fitted.regressweight3 <-exp(fitted(regressweight3)) # predicted values
