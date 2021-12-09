@@ -6,7 +6,7 @@ setwd ("C:/Econometrics Applications")
 
 return <-read.table("return.csv",sep=",", header=TRUE)
 
-returnmodel <- lm(return~dkr + eps + netinc + salary, data= return)
+returnmodel <-lm(return~dkr + eps + netinc + salary, data= return)
 summary(returnmodel)
 
 returnmodel <- lm(return~dkr + eps + lnetinc + lsalary, data= return)
