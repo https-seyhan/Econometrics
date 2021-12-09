@@ -33,7 +33,9 @@ ologit <- lrm(drinker ~ age40s + age50s + ednchs + edba + married + dchron, data
 print(ologit)
 summary(ologit)
 
-ologit2 <- polr(drinker ~ age40s + age50s + ednchs + edba + married + dchron, data = drinks2)
+ologibb[1,]
+53
+ t2 <- polr(drinker ~ age40s + age50s + ednchs + edba + married + dchron, data = drinks2)
 print(summary(ologit2))
 
 ea <- maBina(w = ologic, x.mean = TRUE, rev.dum = TRUE)
@@ -50,7 +52,7 @@ mfx<-function(x){
   bbmeans<-bb2[bbh[2:nrow(bb)],]
   jkj <-bb[2:nrow(bb),]*bbmeans
   M3<-sum(jkj) + bb[1,]
- 
+
   if (ll<-x$family$link=="probit"){
     probitmfx <- data.frame(mfx=dnorm(M3)*bb[2:nrow(bb),],row.names=bbh[2:nrow(bb)])
   }
