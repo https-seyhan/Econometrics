@@ -122,7 +122,7 @@ growth_acc <- function(data, code, years) {
   gYL <- (log(data$YL[2])-log(data$YL[1]))/(data$year[2]-data$year[1])
   gKL <- (log(data$KL[2])-log(data$KL[1]))/(data$year[2]-data$year[1])
   gA  <- (log(data$TFP[2])-log(data$TFP[1]))/(data$year[2]-data$year[1])
-  
+ 
   # collect in matrix and return 
   date1 <- c(data$YL[1], data$KL[1], data$TFP[1])
   date2 <- c(data$YL[2], data$KL[2], data$TFP[2])
