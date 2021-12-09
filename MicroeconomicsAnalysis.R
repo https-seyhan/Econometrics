@@ -192,6 +192,7 @@ dev.print(device=pdf, file="VNM_YL.pdf", width=8, height=6)
 
 # India and Pakistan, midterm, spring 2013 
 data <- pwt[pwt$countrycode == "PAK",]
+
 plot(data$year, data$YL/1000, 
      , type="l",cex=1.5, lwd=2, col="red",
      main="", xlab="", ylab="GDP per worker (000s of 2005 USD)", 
