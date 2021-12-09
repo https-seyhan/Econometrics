@@ -200,6 +200,7 @@ plot(data$year, data$YL/1000,
      mar=c(2,4,2,2),   # better than default in most cases 
      mgp=c(2.5,1,0)  
 )
+
 data <- pwt[pwt$countrycode == "IND",]
 lines(data$year, data$YL/1000, type="l",cex=1.5, lwd=2, col="blue") 
 text(x=1965, y=4, "Pakistan") 
