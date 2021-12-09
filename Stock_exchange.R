@@ -252,4 +252,3 @@ earth.mod <- earth(train$TargetVariable~ ., data=train, degree=2)
 plot(earth.mod)
 
 
-
