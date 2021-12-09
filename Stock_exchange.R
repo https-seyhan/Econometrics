@@ -176,7 +176,6 @@ traindata <- subset(train, select  = -TargetVariable)
 target <- subset(train, select = TargetVariable)
 
 model_svm <- svm(traindata, target$TargetVariable,type='C', kernel='sigmoid', cost = 1000, gamma = 0.001, probability = TRUE)
-
 print(model_svm)
 summary(model_svm)
 
