@@ -34,7 +34,6 @@ print(ologit)
 summary(ologit)
 
 
-
  t2 <- polr(drinker ~ age40s + age50s + ednchs + edba + married + dchron, data = drinks2)
 print(summary(ologit2))
 
