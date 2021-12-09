@@ -70,7 +70,7 @@ save(pwt, file="pwt_global81.RData")
 rm(list=ls())
 load("pwt_global81.RData")
 
-# plots 
+# plots
 plot_YL <- function(data, country) {
   # select country 
   data <- data[data$countrycode == country,]
