@@ -122,7 +122,6 @@ pred <- prediction(predictions,train$TargetVariable)
 perf_AUC <- performance(pred,"auc") #Calculate the AUC value
 
 AUC <- perf_AUC@y.values[[1]]
-
 perf_ROC <- performance(pred,"tpr","fpr") #plot the actual ROC curve
 plot(perf_ROC, main="ROC plot")
 text(0.5,0.5,paste("Training AUC = ",format(AUC, digits=5, scientific=FALSE)))
