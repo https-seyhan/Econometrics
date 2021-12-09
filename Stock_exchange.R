@@ -236,7 +236,6 @@ text(0.5,0.5,paste("Testing AUC = ",format(AUC, digits=5, scientific=FALSE)))
 glm_model <- earth(train$TargetVariable~ ., data=train, degree=2, glm=list(family=binomial))
 summary(glm_model)
 
-
 glm_model_predict <- predict(glm_model, train)
 plot(glm_model_predict)
 
