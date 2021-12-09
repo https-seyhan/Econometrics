@@ -101,7 +101,7 @@ level_comp <-function(pwt, countries, years) {
   ratioKL <- data$KL[1]/data$KL[2]
   ratioA  <- data$TFP[1]/data$TFP[2]
   print(data$A[1]/data$A[2])
-  
+ 
   # collect in matrix and return 
   country1 <- c(data$YL[1], data$KL[1], data$TFP[1])
   country2 <- c(data$YL[2], data$KL[2], data$TFP[2])
