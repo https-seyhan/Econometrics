@@ -219,7 +219,6 @@ write.csv(predictions, file = "randomforestTestingProbs.csv", row.names = FALSE)
 ##confusion matrix
 table(pred = preds_svm, true = test[,101])
 summary(preds_svm)
-
 plot(preds_svm)
 
 #SVM Training AUC
