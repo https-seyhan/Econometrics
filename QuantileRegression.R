@@ -11,6 +11,7 @@ loandata <- read.dta ("loanapp5.dta")
 olsreg <- lm(approve~ white, data=loandata)
 summary(olsreg)
 coef(olsreg)
+
 c(1,1)%*%olsreg$coef
 c(1,0)%*%olsreg$coef
 by(loandata$approve, loandata$white, mean)
