@@ -240,7 +240,6 @@ glm_model_predict <- predict(glm_model, train)
 plot(glm_model_predict)
 
 names(glm_model)
-
 print(glm_model$fitted.values)
 plot(glm_model$fitted.values)
 print(glm_model$glm.coefficients)
