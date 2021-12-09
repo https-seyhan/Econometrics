@@ -80,7 +80,6 @@ data <- tt #Normalised Data
 #}
 
 #data$TargetVariable <- apply(data,1,generateTarget)
-
 #data$TargetVariable<-as.factor(data$TargetVariable)
 
 #summary(data$TargetVariable)
