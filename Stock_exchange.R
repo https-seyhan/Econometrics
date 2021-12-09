@@ -231,7 +231,6 @@ plot(perf_ROC, main="ROC plot")
 text(0.5,0.5,paste("Testing AUC = ",format(AUC, digits=5, scientific=FALSE)))
 
 #Additive Regression
-
 glm_model <- earth(train$TargetVariable~ ., data=train, degree=2, glm=list(family=binomial))
 summary(glm_model)
 
