@@ -185,7 +185,6 @@ predictSVM <- predict(model_svm, traindata, probability = T)
 
 # Check accuracy:
 table(predictSVM, target$TargetVariable)
-
 train_pred <- attr(predictSVM, "probabilities")[,2] #Probabilities of SVM prediction
 plot(train_pred)
 
