@@ -205,7 +205,6 @@ plot(perf_ROC, main="ROC plot")
 text(0.5,0.5,paste("Training AUC = ",format(AUC, digits=5, scientific=FALSE)))
 ###################################################################################
 
-
 # compute decision values and probabilities:
 predictSVM <- predict(model_svm, traindata, decision.values = TRUE)
 attr(predictSVM, "decision.values")[1:4,]
