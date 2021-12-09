@@ -254,4 +254,3 @@ plot(earth.mod)
 
 
 
-
