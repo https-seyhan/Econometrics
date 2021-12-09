@@ -56,7 +56,6 @@ dim(data)
 #data <- dataFilt
 
 
-
 #Normalise Data
 norm.data <- scale(data[,!(names(data) %in% c('TargetVariable'))]) # normalise all variables except targetVariable
 summary(norm.data)
