@@ -249,5 +249,3 @@ print(glm_model$glm.coefficients)
 
 earth.mod <- earth(train$TargetVariable~ ., data=train, degree=2)
 plot(earth.mod)
-
-
