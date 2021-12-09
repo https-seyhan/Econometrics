@@ -188,7 +188,6 @@ train_pred <- attr(predictSVM, "probabilities")[,2] #Probabilities of SVM predic
 plot(train_pred)
 
 #write.csv(train_pred, file = "SVMTrainingProbs.csv", row.names = FALSE)
-
 #SVM TRAINING ROC curve#######################################################
 pred <- prediction(train_pred,train$TargetVariable)
 perf_AUC <- performance(pred,"auc") #Calculate the AUC value
