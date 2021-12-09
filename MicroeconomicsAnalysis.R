@@ -205,5 +205,4 @@ data <- pwt[pwt$countrycode == "IND",]
 lines(data$year, data$YL/1000, type="l",cex=1.5, lwd=2, col="blue") 
 text(x=1965, y=4, "Pakistan") 
 text(x=1980, y=2, "India") 
-
 #dev.print(device=pdf, file="PAKIND_YL.pdf", width=8, height=6)
