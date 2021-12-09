@@ -57,7 +57,7 @@ mfx<-function(x){
   else{
     probitmfx <- data.frame(mfx=dlogis(M3)*bb[2:nrow(bb),],row.names=bbh[2:nrow(bb)])
   }
- 
+
   bbse<-bb/summary(x)$coef[,2]
   mfxse<-probitmfx/bbse[2:nrow(bb),]
  
