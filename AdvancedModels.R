@@ -10,7 +10,6 @@ library(bstats)
 library(texreg)
 
 setwd ("~/Econometrics Applications")
-
 houseprice <- read.dta ("hpricen.dta")
 summary(houseprice)
 
