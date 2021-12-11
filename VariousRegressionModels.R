@@ -14,7 +14,7 @@ setwd("C:/Econometrics Applications")
 nlsy13 <- read.dta("nlsy13.dta")
 summary(nlsy13)
 
-olsreg <- lm(lwage ~ educ, data= nlsy13)
+olsreg<- lm(lwage ~ educ, data= nlsy13)
 print(olsreg)
 summary(olsreg)
 
