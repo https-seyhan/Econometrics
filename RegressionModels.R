@@ -34,7 +34,6 @@ regressweight3 <-lm(log(bwght)~ mage + mage2 + nanvis + nanvis2, data=bweight)
 summary(regressweight3)
 
 fitted.regressweight3 <-exp(fitted(regressweight3)) # predicted values
-
 coef(regressweight3)
 res3 <-residuals(regressweight3)
 
