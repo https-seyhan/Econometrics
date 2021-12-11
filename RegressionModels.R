@@ -6,6 +6,7 @@ setwd ("C:/Econometrics Applications")
 bweight <- read.dta ("bweight4.dta")
 
 write.csv(bweight, file="bweight.csv", sep=",", row.names=FALSE) # This line is a one off run
+
 bweight <-read.table("bweight.csv", sep=",", header=TRUE)
 
 #Regression in question ii)
