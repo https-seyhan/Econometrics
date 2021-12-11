@@ -31,7 +31,6 @@ regressprice4 <- lm(log(price) ~ log(nox) + crime + rooms + dist + disadv, data=
 summary(regressprice4)
 anova(regressprice4)
 ####################################
-
 #Correlation bwtween price, nox , and price, crime
 cor(houseprice$price, houseprice$nox)
 cor(houseprice)
