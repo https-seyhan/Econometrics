@@ -56,7 +56,6 @@ olsreg8 <-  lm(lwage ~  educ + exper + expersq + nc + south + west + nc18 + sout
 summary(olsreg8)
 
 cbind(CO = coef(olsreg8),  confint(olsreg8))
-
 tls9 <- tsls(lwage ~ educ + exper + expersq + nc + south + west + nc18 + south18 + west18 + urban + urban18 + abil, ~ CUFees + exper + expersq + nc + south + west + nc18 + south18 + west18 + urban + urban18 + abil, data= nlsy13)
 summary(tls9)
 cbind(CO = coef(tls9),  confint(tls9))
