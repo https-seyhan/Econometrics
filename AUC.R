@@ -15,6 +15,7 @@ AUCGINI<-function(prediction=prediction1,lass=lass1){
   valA<-1
   valB<--1
   i<-1
+  
   prediction<-sort(prediction,decreasing=TRUE)
  
   while (!is.na(prediction[i])) {
