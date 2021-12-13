@@ -33,7 +33,7 @@ AUCGINI<-function(prediction=prediction1,lass=lass1){
   if ((totalA==0)|(totalB==0)){
     cat ("Only 1 Class")
   }
-
+  
   j<-i
   next_is_same<-FALSE
   this_percent_A<-0
