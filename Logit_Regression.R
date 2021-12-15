@@ -19,6 +19,7 @@ setwd ("C:/Econometrics Applications")
 drinks <- read.dta ("drinks10.dta")
 summary(drinks)
 
+#show tables
 table(drinks$drinker)
 table(drinks$age40s)
 table(drinks$age50s)
