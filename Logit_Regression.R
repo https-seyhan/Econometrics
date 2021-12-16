@@ -69,7 +69,7 @@ mfx<-function(x){
   depenglm <- glm(depen ~ 1, family=binomial(link=x$family$link),data=x$data)
   logldepen <- 0.5*(-depenglm$aic + 2)
   psr2<- 1 - (logl/logldepen)
-  
+ 
   obs<-nrow(x$data)
   #SBC/BIC
   sbc<- -2*logl + log(obs)*nrow(bb)
