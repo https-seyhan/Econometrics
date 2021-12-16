@@ -60,7 +60,7 @@ mfx<-function(x){
  
   bbse<-bb/summary(x)$coef[,2]
   mfxse<-probitmfx/bbse[2:nrow(bb),]
- 
+
   probitmfxfull <- data.frame(mfx=probitmfx,SE=mfxse,bbmeans,summary(x)$coef[2:nrow(bb),3],summary(x)$coef[2:nrow(bb),4],row.names=bbh[2:nrow(bb)])
   colnames(probitmfxfull) <- c("mfx","SE","Mean Value","z","Pr(>|z|)")
  
