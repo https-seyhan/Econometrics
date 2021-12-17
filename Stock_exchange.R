@@ -135,7 +135,6 @@ rownames(impVariables)[which(impVariables > 1)]
 
 #perf_RP <- performance(pred, "rec","prec");
 #plot (perf_RP);
-
 #plot  (perf_RP@alpha.values[[1]],perf_RP@x.values[[1]])
 #lines (perf_RP@alpha.values[[1]],perf_RP@y.values[[1]])
 #lines (perf_ROC@alpha.values[[1]],perf_ROC@x.values[[1]])
