@@ -78,7 +78,6 @@ data <- tt #Normalised Data
 #{
 #  if (row[101]== 1) "Down" else "Up"
 #}
-
 #data$TargetVariable <- apply(data,1,generateTarget)
 #data$TargetVariable<-as.factor(data$TargetVariable)
 
