@@ -67,7 +67,6 @@ save(pwt, file="pwt_global81.RData")
 # need to set dir first 
 rm(list=ls())
 load("pwt_global81.RData")
-
 # plots
 plot_YL <- function(data, country) {
   # select country 
