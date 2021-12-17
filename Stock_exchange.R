@@ -51,7 +51,6 @@ dim(data)
 #dataFilt <- removeOutlier(data, outliers)
 
 #boxplot(dataFilt)
-
 #Replace previous data with Filtered data
 #data <- dataFilt
 
