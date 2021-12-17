@@ -163,7 +163,6 @@ auc(preds,test$TargetVariable)
 
 #plot test ppredictions
 plot(preds_rf)
-
 #plot actual test Values
 plot(test$TargetVariable)
 
