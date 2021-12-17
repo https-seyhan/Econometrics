@@ -28,7 +28,6 @@ summary(pwt)
 
 # 2. Create variables and csv file for class    
 # ------------------------------------------------------------------------------
-
 # select variables of interest
 variables <- c("country", "countrycode", "year", "rgdpe", "rgdpo", "emp", "pop", "avh",  
                "ck")
