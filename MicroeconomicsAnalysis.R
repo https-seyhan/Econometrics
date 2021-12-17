@@ -55,7 +55,6 @@ variables <- c("country", "countrycode", "year", "POP", "LPOP", "YPOP", "YL", "K
                "hours", "TFP")
 
 pwt_some <-pwt[variables]
-
 # write csv file 
 write.csv(pwt_some, file="pwt80.csv", row.names=FALSE)
 
