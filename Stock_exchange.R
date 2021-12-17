@@ -46,7 +46,6 @@ dim(data)
 #  }, data, outliers)
 #  return(as.data.frame(result))
 #}
-
 #dataFilt <- removeOutlier(data, outliers)
 
 #boxplot(dataFilt)
