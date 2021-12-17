@@ -54,7 +54,6 @@ dim(data)
 #Replace previous data with Filtered data
 #data <- dataFilt
 
-
 #Normalise Data
 norm.data <- scale(data[,!(names(data) %in% c('TargetVariable'))]) # normalise all variables except targetVariable
 summary(norm.data)
