@@ -107,7 +107,6 @@ model_rf$confusion
 
 #Show Training Classes
 plot(model_rf$predicted)
-
 ###########################################################
 #show training predictions
 predictions <-as.vector(model_rf $votes[,2])
