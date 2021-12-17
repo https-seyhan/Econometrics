@@ -92,7 +92,7 @@ plot_YL(pwt,c("TUR"))
 
 # level comparison 
 level_comp <-function(pwt, countries, years) {
-  
+ 
   # subset data
   data <- subset(pwt, countrycode %in% countries & year %in% years)
   # compute ratios 
