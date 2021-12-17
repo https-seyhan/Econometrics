@@ -38,7 +38,6 @@ dim(data)
 
 #outliers <- findOutlier(data)
 #summary(outliers)
-
 #removeOutlier <- function(data, outliers) {
 #  result <- mapply(function(d, o) {
 #    res <- d
