@@ -14,6 +14,7 @@ rm(list=ls()) #clean memory
 setwd ("C:/Econometrics Applications")
 mroz <- read.dta ("mroz9.dta")
 summary(mroz)
+
 #Perform LPM using OLS
 regressprice16 <- lm(inlf ~ nwifeinc + educ + exper + expersq + age + kidslt6 + kidsge6,  data=mroz)
 summary(regressprice16)
