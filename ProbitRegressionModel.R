@@ -12,7 +12,6 @@ library("sampleSelection")
 # Probit regression model in R
 rm(list=ls()) #clean memory
 setwd ("C:/Econometrics Applications")
-
 mroz <- read.dta ("mroz9.dta")
 summary(mroz)
 #Perform LPM using OLS
