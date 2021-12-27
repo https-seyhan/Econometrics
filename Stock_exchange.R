@@ -80,6 +80,7 @@ data <- tt #Normalised Data
 
 #summary(data$TargetVariable)
 summary(data)
+
 #Divide Data into Training and Test
 train <- data[1:2000, ]
 summary(train)
