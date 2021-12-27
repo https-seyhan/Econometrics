@@ -71,7 +71,7 @@ regressprice9 <- lm(log(price) ~ lognox + crime2.5 + rooms6 + dist4 + disadv15 +
 summary(regressprice9)
 (summary(regressprice9)$sigma) # variance
 
-#Below gives the within sample confidence interval at 99%.
+#Below code gives the within sample confidence interval at 99%.
 new <- data.frame(nox= 5.473947, crime=2.5, rooms=6, dist=4, disadv=15, proptax=38)
 predict(regressprice8, new, se.fit=TRUE, interval="confidence", level=0.99, cond=TRUE) # conditional
 
