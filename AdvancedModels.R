@@ -132,5 +132,4 @@ summary(regressionprobit19_unrestricted)
 
 regressionprobit19_restricted <- glm(dpriceh ~  crime + rooms + dist + disadv + proptax , family = binomial(link=probit), data = houseprice)
 summary(regressionprobit19_restricted)
-
 anova(regressionprobit19_restricted ,regressionprobit19_unrestricted, test="Chisq")
