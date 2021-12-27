@@ -121,6 +121,7 @@ summary(regressprice16)
 ######################################
 regressionprobit18 <- glm(dpriceh ~ log(nox) + crime + rooms + dist + disadv + proptax , family = binomial(link=probit), data = houseprice)
 summary(regressionprobit18)
+
 ######################################
 houseprice$dpriceh <- 0
 houseprice$dpriceh  <- ifelse(houseprice$price > 22200, 1, 0)
