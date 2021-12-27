@@ -9,6 +9,7 @@ library(systemfit)
 library(sem)
 
 # OLS, IVR (instrumental variables (IV) regression), TLS (Total Least Squares) models
+
 setwd("C:/Econometrics Applications")
 nlsy13 <- read.dta("nlsy13.dta")
 summary(nlsy13)
