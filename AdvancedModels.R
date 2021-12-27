@@ -59,7 +59,7 @@ predict(regressprice8, new, se.fit=TRUE, interval="confidence", level=0.99, cond
 predict(regressprice8, new, se.fit=TRUE, interval="confidence", level=0.99, cond=FALSE)
 
 ######################################
-#transform variables
+#Transform variables
 houseprice$lognox <- (log(houseprice$nox) - 1.7)
 houseprice$crime2.5 <- (houseprice$crime - 2.5)
 houseprice$rooms6 <- (houseprice$rooms - 6)
