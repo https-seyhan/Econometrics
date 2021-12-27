@@ -22,7 +22,6 @@ olsreg2 <- lm(approve~ white + obrat+ loanprc + unem + male + married + dep + sc
 summary(olsreg2)
 coef(olsreg2)
 bptest(olsreg2)
-
 #GLM
 glm2a <- glm(approve ~ white, family=binomial(link=probit), data=loandata)
 summary(glm2a)
