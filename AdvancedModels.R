@@ -88,6 +88,7 @@ predict(regressprice12, new, se.fit=TRUE, interval="confidence", cond=TRUE) # co
 
 ######################################
 regressprice13 <- lm(log(price) ~ log(nox) + crime + rooms + dist + disadv + proptax, data=houseprice)
+
 summary(regressprice13)
 resettest (regressprice13 , power=2:3, type="regressor")
 
