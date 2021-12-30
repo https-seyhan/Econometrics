@@ -2,6 +2,7 @@ library(foreign)
 library(xlsReadWrite) 
 library(ggplot2)
 setwd ("C:/Econometrics Applications")
+
 return <-read.table("return.csv",sep=",", header=TRUE)
 
 returnmodel <-lm(return~dkr + eps + netinc + salary, data= return)
