@@ -40,6 +40,7 @@ print(summary(ologit2))
 ea <- maBina(w = ologic, x.mean = TRUE, rev.dum = TRUE)
 mfx(ologit)
 mfx(probit1)
+
 summary(ologit)
 anova(ologit,test="Chisq")
 
