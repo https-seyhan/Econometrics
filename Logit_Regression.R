@@ -123,6 +123,7 @@ mfx<-function(x){
   cat("", "\n")
   cat("Observations:", obs, "\n")
   cat("", "\n")
+  
   printCoefmat(tests, P.value=F, has.Pvalue=F)
   cat("", "\n")
   
