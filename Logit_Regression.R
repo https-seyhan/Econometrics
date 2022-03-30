@@ -122,6 +122,7 @@ mfx<-function(x){
   cat("", "\n")
   printCoefmat(tests, P.value=F, has.Pvalue=F)
   cat("", "\n")
+  
   cat("Likelihood-Ratio Test:", "\n")
   printCoefmat(LRdata, P.value=T, has.Pvalue=T)
   cat("", "\n")
