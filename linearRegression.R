@@ -12,6 +12,7 @@ summary(returnmodel)
 returnmodel <- lm(return~dkr + eps + lnetinc + lsalary, data= return)
 summary(returnmodel)
 
+#Model 3
 mba <- read.dta("mba3.dta")
 mbamodel <- lm(log(salary)~ testsc + wam + libsize + rank, data=mba)
 summary(mbamodel)
