@@ -90,6 +90,7 @@ mfx<-function(x){
  
   #LR Test
   LRTest<- -2*(logl - logldepen)
+  
   dfLR<-nrow(bb) - 1
   LRp<-dchisq(LRTest,df=dfLR)
   LRdata <- data.frame(LRTest, dfLR,LRp)
