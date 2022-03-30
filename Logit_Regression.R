@@ -85,7 +85,8 @@ mfx<-function(x){
     BigProb<-pnorm(M3)
   }
   else {
-    BigProb<-plogis(M3)}
+    BigProb<-plogis(M3)
+  }
  
   #LR Test
   LRTest<- -2*(logl - logldepen)
