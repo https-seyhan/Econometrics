@@ -119,6 +119,7 @@ mfx<-function(x){
   cat("Reporting Marginal Effects, Evaluated at the Mean", "\n")
   cat("", "\n")
   printCoefmat(probitmfxfull, P.value=TRUE, has.Pvalue=TRUE)
+  
   cat("", "\n")
   cat("Observations:", obs, "\n")
   cat("", "\n")
