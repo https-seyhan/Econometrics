@@ -78,6 +78,7 @@ mfx<-function(x){
   sbc<- -2*logl + log(obs)*nrow(bb)
   #HQIC
   HIC<- -2*logl + 2*log(log(obs))*nrow(bb)
+  
   #CDF of Mean Model
   if (ll == TRUE){
     BigProb<-pnorm(M3)
