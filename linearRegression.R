@@ -8,6 +8,7 @@ return <-read.table("return.csv",sep=",", header=TRUE)
 returnmodel <-lm(return~dkr + eps + netinc + salary, data= return)
 summary(returnmodel)
 
+#Model 2
 returnmodel <- lm(return~dkr + eps + lnetinc + lsalary, data= return)
 summary(returnmodel)
 
