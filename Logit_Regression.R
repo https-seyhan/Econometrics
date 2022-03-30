@@ -68,6 +68,7 @@ mfx<-function(x){
   
   logl <- 0.5*(-x$aic + 2*nrow(bb))
   depen <- x$data[,1]
+  
   depenglm <- glm(depen ~ 1, family=binomial(link=x$family$link),data=x$data)
   logldepen <- 0.5*(-depenglm$aic + 2)
   psr2<- 1 - (logl/logldepen)
