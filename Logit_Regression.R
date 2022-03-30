@@ -73,6 +73,7 @@ mfx<-function(x){
   psr2<- 1 - (logl/logldepen)
 
   obs<-nrow(x$data)
+  
   #SBC/BIC
   sbc<- -2*logl + log(obs)*nrow(bb)
   #HQIC
