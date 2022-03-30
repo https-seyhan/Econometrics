@@ -96,7 +96,7 @@ mfx<-function(x){
 
   tests<-rbind(BigProb,logl,psr2,x$aic,HIC,sbc)
   tests<-data.frame(tests)
- 
+
   colnames(tests)<-""
   rownames(tests)<-c("CDF(Evaluated at the Mean):","Log-Likelihood:","McFadden's R2:","Akaike Information Criterion:","Hannan-Quinn Criterion:","Schwarz's Bayesian Criterion:")
  
