@@ -4,6 +4,7 @@ library(ggplot2)
 setwd ("C:/Econometrics Applications")
 return <-read.table("return.csv",sep=",", header=TRUE)
 
+#Model 1
 returnmodel <-lm(return~dkr + eps + netinc + salary, data= return)
 summary(returnmodel)
 
