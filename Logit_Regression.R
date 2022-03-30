@@ -84,7 +84,8 @@ mfx<-function(x){
   if (ll == TRUE){
     BigProb<-pnorm(M3)
   }
-  else {BigProb<-plogis(M3)}
+  else {
+    BigProb<-plogis(M3)}
  
   #LR Test
   LRTest<- -2*(logl - logldepen)
