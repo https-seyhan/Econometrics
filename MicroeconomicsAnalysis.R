@@ -178,7 +178,7 @@ growth_acc(pwt, c("VNM"), c("1990", "2011"))
 
 growth_acc(pwt, c("SYR"), c("1990", "2011"))
 
-# Viet Nam, fall 2013 
+# VietNam, fall 2013 
 data <- pwt[pwt$countrycode == "VNM",]
 plot(data$year, data$YL/1000, 
      , type="l",cex=1.5, lwd=2, col="red",
