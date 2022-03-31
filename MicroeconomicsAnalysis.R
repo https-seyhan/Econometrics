@@ -118,7 +118,7 @@ growth_acc <- function(data, code, years) {
   # subset data
   data <- subset(data, countrycode %in% code & year %in% years)
   head(data)
-  
+ 
   # compute growth rates 
   gYL <- (log(data$YL[2])-log(data$YL[1]))/(data$year[2]-data$year[1])
   gKL <- (log(data$KL[2])-log(data$KL[1]))/(data$year[2]-data$year[1])
