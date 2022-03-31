@@ -128,6 +128,7 @@ growth_acc <- function(data, code, years) {
   date1 <- c(data$YL[1], data$KL[1], data$TFP[1])
   date2 <- c(data$YL[2], data$KL[2], data$TFP[2])
   growth <- c(gYL, gKL, gA)
+  
   contri <- c(gYL, gKL/3, gA)
   #  print(growth)
   #  print(contri)
