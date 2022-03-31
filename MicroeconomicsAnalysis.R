@@ -73,7 +73,7 @@ plot_YL <- function(data, country) {
   # select country 
   data <- data[data$countrycode == country,]
   head(data)
- 
+
   # plot
   plot(data$year, data$YL/1000,  # convert to thousands  
        , type="l",cex=1.5, lwd=2, col="red",
