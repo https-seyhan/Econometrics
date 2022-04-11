@@ -65,7 +65,6 @@ houseprice$rooms6 <- (houseprice$rooms - 6)
 houseprice$dist4 <- (houseprice$dist - 4)
 houseprice$disadv15 <- (houseprice$disadv - 15)
 houseprice$proptax38 <- (houseprice$proptax - 38)
-
 regressprice9 <- lm(log(price) ~ lognox + crime2.5 + rooms6 + dist4 + disadv15 + proptax38, data=houseprice)
 summary(regressprice9)
 (summary(regressprice9)$sigma) # variance
