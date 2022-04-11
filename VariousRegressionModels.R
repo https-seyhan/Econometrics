@@ -17,7 +17,6 @@ summary(nlsy13)
 olsreg<- lm(lwage ~ educ, data= nlsy13)
 print(olsreg)
 summary(olsreg)
-
 #95% confidence intervals
 cbind(CO = coef(olsreg),  confint(olsreg))
 coef(run.Pooledfare)+as.matrix(sqrt(diag(Pooledfareavcov))*qnorm(0.975))%*%c(-1,1)
