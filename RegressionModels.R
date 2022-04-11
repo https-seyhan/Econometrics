@@ -10,7 +10,6 @@ bweight <-read.table("bweight.csv", sep=",", header=TRUE)
 #Regression in question ii)
 regressweight <- lm(bwght~ mage + mage2, data=bweight)
 summary(regressweight)
-
 #Regression in question v)
 regressweight <-lm(bwght~ mage + mage2 + nanvis + nanvis2, data=bweight)
 rs <- summary(regressweight)
