@@ -15,7 +15,7 @@ library(plyr)
 
 setwd("~/Econometrics Applications")
 
-data<- read.csv("~/Econometrics Applications/stock_data.csv", sep=",", header=T, stringsAsFactors= T)
+data <- read.csv("~/Econometrics Applications/stock_data.csv", sep=",", header=T, stringsAsFactors= T)
 summary(data)
 
 boxplot(data[,-1])
