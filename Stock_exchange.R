@@ -91,7 +91,6 @@ model_rf <- randomForest(TargetVariable~., data=train,  maxnodes=10, ntree=1500,
  #    X35 + X37 + X42 + X44 + X45 + X48 + X51 + X60 + X63 + X65 + X68
   #   + X69+ X76 + X77 + X82 + X83 + X89 + X90 + X93 + X98, maxnodes=10, ntree=1500,  nproximity=TRUE, importance=TRUE)
 summary(model_rf$Length)
-
 #model variables
 names(model_rf)
 print(model_rf$classes)
