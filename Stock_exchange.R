@@ -124,7 +124,6 @@ impVariables <- importance(model_rf,type = 1)
 rownames(impVariables)[which(impVariables > 1)]
 #data.model_rf <- randomForest(Y~  X6 + X7 + X9 + X12 + X18 + X20 + X23 + X24 + X25 + X29 + X32 + X33 + X35 + X37 + X42 + X44 + X45 + X48 + X51 + X60 + X63 + X65 + X68
 #                             + X69+ X76 + X77 + X82 + X83 + X89 + X90 + X93 + X98, maxnodes=20, ntree=1500)
-
 #perf_ROC <- performance(pred, "fpr","tpr")
 #plot (perf_ROC)
 
