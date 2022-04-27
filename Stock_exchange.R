@@ -59,7 +59,6 @@ boxplot(norm.data)
 
 TargetVariable <- as.factor(data[,c("TargetVariable")])
 summary(TargetVariable)
-
 plot(TargetVariable)
 #Complete normalise dataset
 merged.data <- cbind(norm.data, TargetVariable)
